@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 10rem;
+  width: 10rem;
+  display: block;
+  border: 2px solid black;
+  object-fit: cover;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+h3 {
+    font-family: 'Manrope';
+  }
+
+.js_bin {
+    font-family: 'Manrope';
+  }
