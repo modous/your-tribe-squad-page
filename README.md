@@ -1,1 +1,1 @@
-> Fork deze leertaak en ga aan de slag, de instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+> _Fork_ deze leertaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)

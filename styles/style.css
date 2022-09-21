@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,9 +9,16 @@
 
 body {
   font-family: "Manrope";
+  background-image: url("../assets/classroomvideo.gif");
+  background-size: 98em;
+  background-position: center;
 }
 
-img {
+html {
+  min-height: 100vh;
+}
+
+.js_image {
   height: 10rem;
   width: 10rem;
   display: block;
@@ -28,39 +36,82 @@ ul > li {
   list-style: none;
 }
 
-article{
-  margin-top: 2%;
+article {
   text-align: center;
 }
-.prullenmand{
+
+.prullenmand {
   margin-top: 2%;
-  text-align: center;
 }
-.js_bin{
+
+.js_bin {
   display: flex;
-  width: 430px;
+  flex-direction: column;
   justify-content: space-between;
-  margin: auto;
-  margin-top: 10px;
 }
-.js_image{
-  margin-top: 2%;
+
+@media (max-width: 820px) {
+  .js_bin2 {
+    display: none;
+  }
 }
-li{
-  color: rgb(20, 27, 8);
-  font-family: sans-serif;
-  border:solid white 2px;
- background-image: url("../assets/paaper.jpeg");
- padding:10px;
- border-radius: 25px;
+
+li {
+  color: rgb(255, 255, 255);
+  padding-bottom: 5px;
+  border-radius: 25px;
+  font-family: "Walter Turncoat", cursive;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  width: max-content;
+  font-size: 14px;
 }
+
+li::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: rgb(255, 255, 255);
+  transition: 300ms;
+  position: absolute;
+  bottom: 0;
+}
+
+li:hover::after {
+  width: 100%;
+}
+
+.bord {
+  display: flex;
+  position: absolute;
+  column-gap: 420px;
+  left: 49%;
+  transform: translate(-50%, calc(-50% - 5rem));
+  top: 50%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
 section {
   opacity: 0;
   transition: opacity 0.2s ease-out;
+  transition-property: opacity, transform;
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 10;
 }
 
 section.-animate {
   opacity: 1;
+  pointer-events: unset;
+  transform: translate(-50%, calc(-50% - 7rem));
 }
 
 /* DE KAART */
@@ -69,24 +120,31 @@ section.-animate {
   background-position: center;
   background-size: cover;
   box-shadow: 0 7px 20px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
-  width: 460px;
+  width: 300px;
   height: 238px;
-  margin: 0 auto;
-  margin-top: 50px;
+  border-radius: 9px;
   text-align: center;
   text-decoration: none;
-  display: block;
-  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.js_card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, calc(-50% - 5rem)) scale(0.5);
 }
 
 .kaart h2 {
   color: black;
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .kaart p {
   color: black;
-  margin-top: 20px;
 }
 
 .profiel_foto {
@@ -95,11 +153,83 @@ section.-animate {
   width: 80px;
   height: 80px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
   border-radius: 100%;
   border: 2px solid grey;
+  margin: 0 auto;
+}
+
+.grabbelton img {
+  display: flex;
+  object-fit: contain;
+  border-width: 0px;
+  height: 15rem;
+}
+
+.grabbelton {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, calc(-50% + 14rem));
 }
 
 /* EINDE KAART */
+
+/* DE DROPDOWN */
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  overflow: auto;
+  padding: 0.5em 0.5em 0;
+  background-color: white;
+  width: 120px;
+  display: none;
+}
+
+@media (max-width: 820px) {
+  details {
+    display: block;
+    left: 50%;
+    top: 71%;
+    position: absolute;
+    z-index: 999;
+    margin-left: -60px;
+  }
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+  height: 100px;
+}
+
+details[close] {
+  padding: 0.5em;
+  height: 100px;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+details li {
+  list-style: none;
+  padding: 2px;
+  font-family: "Manrope";
+}
+
+details li a {
+  text-decoration: none;
+  color: black;
+}
+
+details ul {
+  padding-left: 10px;
+}
+
+/* EINDE DROPDOWN */

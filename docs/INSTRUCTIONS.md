@@ -1,131 +1,59 @@
-# Squad page
+# Team Canvas
 
-Ontwerp en maak met je squad een squadpagina met HTML, CSS en Javascript.
+Vul met jouw team dit canvas in om een goed vertrekpunt voor jouw teamproject te hebben.
 
 ## Context
 
-Deze leertaak hoort bij sprint 1 "Your Tribe". Dit is een leertaak die je in een team uitvoert.
+Deze deeltaak hoort bij sprint 1 "Your Tribe". Deze opdracht ga je met jouw team uitvoeren.
 
-In het S01W2-01-Squadpage wordt stap voor stap behandeld wat je moet doen.
-
-
-## Briefing
-
-Op fdnd.nl komen alle visitekaartjes van de studenten te staan, op deze website kijken potentiele opdrachtgevers. In de squadpagina komen alle visitekaartjes samen. Ontwerp en maak samen met je teamgenoten de squadpagina
+In de talk S01W2-01-Team-Canvas wordt uitgelegd wat je moet doen.
 
 ## Doel van deze opdracht
 
-* Samenwerken in een team
-* In een team de dev-lifecycle toepassen 
-* Een defintieve squadpagina maken waarin alle visitekaartjes van de squad samen komen
+Samenwerken is niet makkelijk. 
+Om er voor te zorgen dat je zo soepel mogelijk van start gaat is het handig 'de moeilijke vragen' vooraf te stellen. 
+Zo worden dingen waar rekening mee gehouden moet worden al besproken voor er lastige situaties ontstaan. 
+Het FDND Team Canvas is een hulpmiddel bij het vormen van een nieuw project-team. 
+Gebruik het élke keer als je een nieuwe opdracht met een nieuw team gaat aanpakken.
+
+N.B.: Het invullen van het Team Canvas is natuurlijk geen garantie voor geslaagd teamwerk. Het blijft gedeelde inzet, afstemming en het nemen van verantwoording waar bergen mee worden verzet.
 
 ## Werkwijze
+![opdracht](https://user-images.githubusercontent.com/140124/189592950-da2ca796-d49d-4588-8998-09ccef591dc9.png)
 
-Deze taak wordt behandeld in het bijhorende college. Deze opdracht gaat over alle fases van de **development-lifecycle** [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
-
-Volg onderstaand fases om jouw squadpage gestructureerd te ontwerpen, aan te passen en op Github te publiceren.
-
+Deze opdracht gaat over de [analysefase](#analyseren) van de DLC.
 
 ### Analyseren
 
-In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen.
+In de analysefase creëer je overzicht. Als je met een nieuw team aan de slag gaat hoort het maken van afspraken daar bij.
 
+#### Aanpak
 
-#### Aanpak analysefase
+Het FDND Team Canvas invullen.
 
-1. Verzamel inspiratie voor overzichtspagina's door _desktop research_ uit te voeren met jouw Squad (doen we samen)
-2. Lees de instructies van deze leertaak zorgvuldig door
-3. Bekijk de verschillende fases van de Development Lifecycle en wat je per stap gaat doen
-4. Bespreek met jouw team wat je aan werk verwacht en verdeel het werk. Tip: gebruik hiervoor issues op GitHub
+1. Begin met het individuele deel -
+Stel persoonlijke doelen op. Dit kan gaan om over kennis (je wilt iets leren), vaardigheden (je wilt iets kunnen) of houding/gedrag (je wilt iets doen). Geef jouw verwachtingen aan. Wil je 3x per week een standup? Wil je in de SAR werken? Wil je thuis werken? Waar ben jij bij gebaat.. In welke omstandigheid werk jij het prettigst?
 
-#### Materiaal analysefase
-
-- [Mastering Issues](https://guides.github.com/features/issues/)
-
-
-### Ontwerpen
-
-Bij de start van de ontwerpfase weet je wat het doel en het resultaat van je project zijn. In de ontwerpfase neem je ontwerp- beslissingen en zorg je dat je precies weet wat je moet gaan bouwen.  
-
-Nu wordt het tijd om te kijken hoe het resultaat eruit zou kunnen zien. 
-
-Dit is een belangrijk moment in het project.
-(Voor veel opdrachtgevers geldt dat ze nu pas duidelijk krijgen hoe het resultaat eruit zal zien. En dat is een moment waarop veel opdrachtgevers veel duidelijker kunnen aangeven wat ze wel en niet willen.)
-  
-
-#### Aanpak ontwerpfase
-
-1. Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
-2. Maak vervolgens per section een breakdownschets van elementen van de betreffende section
-3. Bedenk welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
-4. Verwerk de HTML elementen in de schets, met verwijzingen naar de betreffende section
- 
-
-#### Materiaal ontwerpfase
- 
-- [HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-- [How to section your HTML](https://css-tricks.com/how-to-section-your-html/)
+2. Bespreek in je team de individuele delen
+3. Vul vervolgens als team de andere vlakken in -
+Mensen en rollen: Benoem de specifieke rollen en taken van elk teamlid. Bespreek het belang van deze verdeling. Stel de verdeling bij als blijkt dat het niet werkt.
+Team doelen: Zijn helder en specifiek. Zijn verdeeld in korte- en lange termijn doelen. Zijn meetbaar. Worden geprioriteerd.
+Waarden: Wat maakt ons gelukkig en tevreden? Wat maakt ons trots? Welke waarden kiezen wij? Kunnen wij onze waarden prioriteren? Check het resultaat! Voelen we ons er goed bij?
 
 
 
-### Bouwen
-
-In de bouwfase realiseer je de beslissingen uit de ontwerpfase in HTML, CSS en JS.
-
-Op basis van je ontwerpschets ga je bedenken hoe je je ontwerp in code kan bouwen. Je zet je project op in Github en kopieert de repository naar jouw computer. Je begint met de content in HTML, voegt CSS toe voor de vormgeving en JS voor de interactie.
-
-#### Aanpak bouwfase
-
-1. Werk aan de hand van de breakdownschets de pagina uit in HTML
-2. Geef vervolgens de pagina vorm met CSS
-
-#### Materiaal bouwfase
-
-- [Clip over CSS font en text properties](https://www.youtube.com/watch?v=RNakAX3rVVw)
-- [Typography for developers](https://css-tricks.com/typography-for-developers/)
-- [HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-- [How to section your HTML](https://css-tricks.com/how-to-section-your-html/)
-- [What the Flexbox clips](https://flexbox.io/)
-- [FlexBox Froggy](https://flexbox.io/)
-- [A guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Making Modern Layouts with CSS Grid | Grid Basics](https://youtu.be/br-0i3U1VCA)
-- [CSS Grid Garden](https://cssgridgarden.com/)
-- [Learn how to use CSS Media Queries in less than 5 minutes](https://youtu.be/2KL-z9A56SQ)
-
-### Integreren
-
-In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.
-
-#### Aanpak integreerfase
-
-1. 'Push' jouw aanpassingen naar Github (en publiceer via Github pages) 
-
-
-### Testen
-
-In de testfase controleer je of jouw aanpassingen werken zoals bedoeld. Dit kan een technische-test zijn, maar ook een test met gebruikers of een presentatie bij de opdrachtgever om te bespreken of de opdracht goed is.
-
-#### Aanpak testfase
-
-1. Laat jullie squadpagina aan iedereen zien
-2. Noteer feedback
-3. Ga terug naar de analysefase voor een volgende ronde verbeteringen
+##### Bronnen:
+- (Learn about the Team Canvas - engels)[http://theteamcanvas.com/learn/]
+- (Pro-tip: Een lijst met kernwaarden)[https://www.desteven.nl/leiderschapsontwikkeling/modern-leiderschap/kernwaarden]
 
 ## Criteria
 
 Focus sprint 1: Your Tribe - De focus in deze sprint ligt op kennismaken, samenwerken en hoe je interface en vormgevingsprincipes kan toepassen voor een responsive design.
 
-Bij deze leertaak gelden de gedragscriteria van Sprint 1:
+Deze deeltaak hoort bij het gedragscriterium:
 
-- Je volgt binnen projecten de aangeboden fasering van de development-lifecycle.
-- Je past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe.
 - Je werkt in teams, laat je hierbij begeleiden en geeft feedback aan teamleden.
-- Je draagt verantwoording voor je eigen resultaten en verwerkt ontvangen feedback.
-- Je luistert naar wat een ander zegt en neemt dit serieus.
 
 Deze opdracht is done als:
 
-- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
-- [ ] je hebt als team het proces (ontwerpbeslissingen, schetsen, inzichten en testresultaten) gedocumenteerd in de Wiki
-- [ ] de squad page staat op Github en heeft een live url
-
+- [ ] Je hebt het canvas ingevuld en toegevoegd aan de wiki van de repository waar jullie in samenwerken.
