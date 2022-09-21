@@ -8,3 +8,6 @@ https://ivarschuyt.github.io/your-tribe-squad-page/
 
 ## Mobile
 <img width="567" alt="Screenshot 2022-09-21 at 12 10 35" src="https://user-images.githubusercontent.com/55235748/191478123-eede9521-91b3-4e07-9b46-ecdd73fcdc90.png">
+<br>
+
+Onze site is responsive. Dat betekent dat als een device minder dan 820px breed is, de site zich aanpast en in een simpelere versie verandererd die handiger is voor smartphonegebruikers.
