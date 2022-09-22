@@ -1,7 +1,7 @@
 | ⚠️  | We hebben in een verkeerde fork gewerkt ([your-tribe-team-canvas](https://github.com/IvarSchuyt/your-tribe-team-canvas)). Daar hebben we alle commit's gemaakt. Deze kun je in onze [oude repository](https://github.com/IvarSchuyt/your-tribe-team-canvas) bekijken. | ⚠️  |
 | :-: | :---------------------------------------------------------------------------: | :-- |
 <br>
-https://ivarschuyt.github.io/your-tribe-squad-page/
+live site: https://ivarschuyt.github.io/your-tribe-squad-page/
 
 ## Desktop
 <img width="1033" alt="Screenshot 2022-09-21 at 12 09 51" src="https://user-images.githubusercontent.com/55235748/191477951-e664250c-3502-44b8-8974-9b4abeeb4f44.png">
